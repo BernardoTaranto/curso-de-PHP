@@ -1,0 +1,9 @@
+<?php
+ 
+$name = 'Bernardo Augusto';
+$replace = 'Taranto';
+$new_name = substr($name,0,strpos($name,'A')).$replace;
+echo $new_name;
+
+ 
+?>
